@@ -1,84 +1,70 @@
-# JS Frameworks Course Assignment
+# Your project title
 
-## Brief
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-Create either a new React or Next.js app in this repo.
+A simple overview of the use/purpose of the project.
 
-For the login functionality, use either a Wordpress installation with the <a href="https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/" target="_blank">JWT plugin from Module 3</a> installed, or a Strapi installation. Do not add either of these to your repo. Your API should remain a separate project. The markers will use their own installations when marking.
+## Description
 
-You can use either a REST or GraphQL API for the API calls.
+Add a more detailed description of what your project entails and set out to do.
 
----
+You can add some bullet points if you'd like to:
 
-## Assessment
+- List item 1
+- List item 2
+- List item 3
 
-Please provide your login credentials for assessment.
+## Built With
 
-Example
-- username: xxxxxx
-- password: xxxxxx
+You can list a the tech stack that you've used over here
 
-## Level 1
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com)
 
-Your app should have the following paths:
+## Getting Started
 
--   "/"
--   "/detail/:param"
--   "/contact"
--   "/login"
--   "/admin"
+### Installing
 
-The admin path won't appear in your navigation.
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-Use reusable components where appropriate and pay attention to how the components are arranged.
+1. Clone the repo:
 
-### Home
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-Find an API that returns at least:
+2. Install the dependencies:
 
--   an array of items
--   a single item retrieved by a parameter (id, name, slug, etc)
+```
+npm install
+```
 
-If you are using Next you can also hard-code json and return it from API routes created in `pages/api/*`.
+### Running
 
-You can use your own Wordpress or Strapi or any other API that you have created for these calls but it must be publically hosted - it must not be running on your localhost.
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
-Display at least 2 properties from each result.
+To run the app, run the following commands:
 
-Each result should link to the detail page, passing a parameter in the URL.
+```bash
+npm run start
+```
 
-### Detail
+## Contributing
 
-Retrieve the parameter from the URL and use it in an API call to fetch one item.
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
-Display at least 3 properties from the item.
+## Contact
 
-### Contact
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-Create a form with the following inputs and validation:
+[My Twitter page](www.twitter.com)
 
--   First name - required, minimum 3 characters
--   Last name - required, minimum 4 characters
--   Email - required, must be in a valid email format
--   Subject - required, this must be a select box with at least 2 options
--   Message - required, minimum 10 characters.
+[My LinkedIn page](www.linkedin.com)
 
-### Login
+## License
 
-Create a form with username/email and password fields. The inputs should have the necessary validation for a login form (not a registration form).
+You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
-The form should make a login request to either a Wordpress API with the JWT plugin installed or a Strapi API. If the login is successful redirect the user to the admin route.
+## Acknowledgments
 
-If the login is unsuccessful display a message above the form.
-
-### Admin
-
-This page will simply display an "Admin" heading.
-
----
-
-## Level 2
-
-Add a favourite button/icon component to each result on your home page. Clicking this button will toggle the result in/out of a favourites array.
-
-Add a "/favourites" path to your routes. This page will display all the items currently in the favourites array.
+This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
