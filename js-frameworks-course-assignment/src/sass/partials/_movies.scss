@@ -1,0 +1,19 @@
+.movieCard {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 10px;
+    .date {
+        font-size: 1.2rem;
+    }
+    img {
+        width: 100%;
+        grid-row: 1 / 4;
+        grid-column-start: 2;
+    }
+}

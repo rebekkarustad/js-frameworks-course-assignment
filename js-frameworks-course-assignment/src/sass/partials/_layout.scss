@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: $color-background;
+    padding: 40px 20px;
+}
+
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: $color-primary;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}

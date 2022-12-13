@@ -1,0 +1,25 @@
+.loginWrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 20px;
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .loginInfo {
+            display: flex;
+                flex-direction: column;
+                gap: 5px;
+                input {
+                    padding: 10px;
+                    border: 1px solid $color-primary;
+                }
+        }
+    }
+    h1 {
+        margin-bottom: 10px;
+    }
+
+}

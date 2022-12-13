@@ -1,0 +1,26 @@
+nav {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 800px;
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 400;
+    a{
+        color: $color-primary
+    }
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+  
+li {
+    display: inline-block;
+    a:hover {
+        text-decoration: underline;
+    }
+}
